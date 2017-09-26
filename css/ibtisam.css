@@ -1,0 +1,35 @@
+body{
+	font-family: sans-serif !important;
+}
+.pageContent p{text-align:justify;}
+#headerLineContainer{ min-height: 50px !important; padding:5px !important;}
+.asideInnerContainer {
+    background: #fafafa;
+}
+#tabsList li{margin-top:20px; margin-bottom:20px; padding-bottom:10px;}
+#tabsList li.active{
+	border-bottom: 2px solid #777777;
+}
+#tabsList label{    line-height: 30px;}
+.logo{
+	width:100px;
+	margin:14px;
+	height:30px;
+	float: left;
+}
+.logo span{
+	width:100%;
+	background:#464646;
+	height:100%;
+	color:#fff;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+section{margin: 15px; max-width:100%;}
+section h3{border-bottom:2px solid #dcdcdc; color:#949393;}
+section p a{color:#949393; font-size:14px;}
+.map {margin: 15px; max-width:100%;}
+.map p{text-align:justify}
+.map img{max-width: 100%;}
