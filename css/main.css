@@ -1,0 +1,157 @@
+/*
+https://autoprefixer.github.io/
+*/
+
+/**
+*header line with logo
+*/
+
+#headerLineContainer
+{
+    border-bottom:1px solid #000;
+    padding:10px;
+}
+
+#headerLogoContainer img
+{
+    height: 20px;
+    width: 60px;
+
+}
+
+
+/**
+*   page
+*/
+.innerPageContainer{
+    width:80%;
+    margin:0px 10%;
+}
+.pageAllSlide{
+    display:flex;
+
+}
+
+/**
+*  center page content
+*/
+.pageContent{
+    width:70%;
+}
+
+.pageContent>header{}
+.pageContent>section{}
+.pageContent h3{}
+.pageContent h4{}
+.pageContent p{}
+
+
+
+
+
+/*
+* aside
+*/
+
+
+/* tabs */
+.asideContainer
+{
+    width:30%;
+}
+
+.asideInnerContainer
+{
+
+}
+.asideInnerContainer>header{
+
+}
+
+#asideTabsContainer{
+
+}
+ul#tabsList {
+    display:flex;
+    padding:0px;
+    margin:0px;
+}
+
+
+#tabsList li{
+    width:25%;
+    display:inline;
+    opacity:0.6;
+}
+
+
+#tabsList a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+#tabsList img{
+    max-width: 100%;
+    height: 40px;
+    display:block;
+    margin:auto;
+
+}
+
+
+#tabsList label{
+    display:block;
+    text-align: center;
+}
+
+
+
+#tabsList li.active{
+    opacity:1;
+
+}
+
+
+#tabsList li.active a{
+
+}
+
+
+
+/* slides pages */
+
+.asideInnerContainer{
+
+}
+.asideInnerContainer>section{
+}
+
+.asideInnerContainer .slidesAllContainer{
+
+    position:relative;
+    height:600px;
+    overflow:auto;
+}
+
+.oneSlidePageContainer{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    display:none;
+}
+
+#oneSlidePageContainer_1{
+    display:block;
+}
+
+
+/* slide actions */
+.oneSlidePageContainer:target ~ .oneSlidePageContainer{
+    display:none;
+}
+.oneSlidePageContainer:target {
+
+    display:block;
+}
