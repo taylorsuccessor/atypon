@@ -3,10 +3,39 @@
 
 </head>
 <body>
+<a href="#click">click</a>
 <div class="allContainer">
     <div class="allSlideContainer">
-        <div class=""
+        <div class="oneSlideDive" style="background-color:red;">first</div>
+        <div class="oneSlideDive" style="background-color:blue;">second</div>
     </div>
 </div>
+
 </body>
 </html>
+
+<style type="text/css">
+.allContainer{
+width:100%;
+    position:relative;
+}
+
+.allSlideContainer{
+    position:absolute;
+    width:200%;
+
+}
+
+.oneSlideDive{
+    width:50%;
+    height:200px;
+    float:left;
+    display:block;
+
+}
+
+a{clear:both;display:block;position:absolute;bottom:0px;left:0px;}
+    a:target ~ .allSlideContainer{
+        left:-50%;
+    }
+</style>
